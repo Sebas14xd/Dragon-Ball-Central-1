@@ -115,14 +115,14 @@ var MEDIA_DATA = {
         }
     ],
     "mangas": [
-        { "titulo": "Manga 1", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1vIZ2kGV1XdULy2bbfwotFTAMQWCR-w7u" },
-        { "titulo": "Manga 2", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1_QJe6RcQKceqBkqUQz9-S6xr9AH8bePq" },
-        { "titulo": "Manga 3", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1Vsy7Y1QCKC458m6B4Lcq_f0J5dN4j6kx" },
-        { "titulo": "Manga 4", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1Ucj90qCRunNLccmBamHd-3maGQP2GA9x" },
-        { "titulo": "Manga 5", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1SJjeWUjlFR7L9-xgexaKE3VNwJfAVOTl" },
-        { "titulo": "Manga 6", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1R0NZOgBI_Yw8v1d5abk6J-zfUnBwyN5-" },
-        { "titulo": "Manga 7", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1Mbnn5SXWKHSUmbWx_6NOF-q63QVXLDal" },
-        { "titulo": "Manga 8", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/15AwAhSl2_pgFB7qJ5iLfQd6cJQ6fwzaF" }
+        { "titulo": "DB X SAITAMA", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1vIZ2kGV1XdULy2bbfwotFTAMQWCR-w7u" },
+        { "titulo": "DBAF", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1_QJe6RcQKceqBkqUQz9-S6xr9AH8bePq" },
+        { "titulo": "DRAGON BALL", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1Vsy7Y1QCKC458m6B4Lcq_f0J5dN4j6kx" },
+        { "titulo": "DRAGON BALL: Aquella vez que me reencarné en Yamcha", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1Ucj90qCRunNLccmBamHd-3maGQP2GA9x" },
+        { "titulo": "DB MULTIVERSE", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1SJjeWUjlFR7L9-xgexaKE3VNwJfAVOTl" },
+        { "titulo": "DRAGON BALL", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1R0NZOgBI_Yw8v1d5abk6J-zfUnBwyN5-" },
+        { "titulo": "DRAGON BALL SUPER", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/1Mbnn5SXWKHSUmbWx_6NOF-q63QVXLDal" },
+        { "titulo": "DRAGON BALL KAKUMEI", "descripcion": "Edición Especial", "imagen": "https://lh3.googleusercontent.com/d/15AwAhSl2_pgFB7qJ5iLfQd6cJQ6fwzaF" }
     ],
     "peliculas": [
         { "titulo": "La leyenda de Shenlong / El camino hacia el más fuerte (Latam)", "descripcion": "Dragon Ball", "info": "Diciembre 1986", "imagen": "https://lh3.googleusercontent.com/d/1MeskJh-7K8Q8UfAK1pT-1f3cBehBdwLa" },
@@ -148,18 +148,89 @@ var MEDIA_DATA = {
         { "titulo": "Dragon Ball Super: Super Hero", "descripcion": "Dragon Ball Super", "info": "Junio 2022", "imagen": "https://lh3.googleusercontent.com/d/1--0Hiil4UtBmw8ktiXNCla9m1edyCby2" }
     ],
     "videojuegos": [
-        { "titulo": "Budokai Tenkaichi 3", "descripcion": "El simulador de combate definitivo.", "imagen": "https://via.placeholder.com/300x450/111/f57c00?text=BT3" },
-        { "titulo": "Sparking! ZERO", "descripcion": "La nueva generación del combate.", "imagen": "https://lh3.googleusercontent.com/d/1Q2frh1C-i8lHs2kSVs4nmSuVaqPVBn7m" },
-        { "titulo": "Xenoverse 2", "descripcion": "Viajes en el tiempo y avatares.", "imagen": "https://via.placeholder.com/300x450/111/f57c00?text=XENOVERSE" },
-        { "titulo": "Dragon Ball Kakarot", "descripcion": "Action RPG de la historia de Z.", "imagen": "https://via.placeholder.com/300x450/111/f57c00?text=KAKAROT" }
+        { "titulo": "Dragon Ball Sparking! ZERO", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/115sLGIdzioiaRAsxG4ATFfliXWObYpQF" },
+        { "titulo": "Dragon Ball Z: Sagas", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/12jXt_CnKRxXIQD_MTGYg79BPLaij85R3" },
+        { "titulo": "Dragon Ball Z: Buu's Fury", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/15F8kUwNevGxeU3hBfRksKLZdu6gG_n8Z" },
+        { "titulo": "Dragon Ball Z: Budokai Tenkaichi", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/15SZUX8XyEOFjHgV9J8mUFKLLRCrNxEaH" },
+        { "titulo": "Dragon Ball: The Breakers", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/15n9jmkwKd64AyrYaG1Q3Mo_LTw5LhI4X" },
+        { "titulo": "Dragon Ball Raging Blast", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1CDaqeXIbeSDIL-cB8Nm72SojEbGHYKGv" },
+        { "titulo": "Dragon Ball Z: Budokai", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1GR5bWqLoO7eGdz-yeKOnyJqmqoDsd7JE" },
+        { "titulo": "Dragon Ball Z: El Legado de Goku", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1KYbxQgzTN4Rxnn314-uUSZY4AkqPNd_X" },
+        { "titulo": "Dragon Ball Z: Budokai Tenkaichi 3", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1LJjapTQJ28k_6Pt1_vZxFMqBi2wmWx6_" },
+        { "titulo": "Dragon Ball Legends", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1OTxA0GWun1qk-8bOyLrNqwuyDHn6Dtro" },
+        { "titulo": "Dragon Ball Raging Blast 2", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1PpxQ0fS7kzhmG1gg0TlQqfc-QldSZwzM" },
+        { "titulo": "Dragon Ball Z: Kakarot", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1Q2frh1C-i8lHs2kSVs4nmSuVaqPVBn7m" },
+        { "titulo": "Dragon Ball Z: Shin Budokai", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1QSfUMU0HG63XqUElUscGbN1c--BmQpTm" },
+        { "titulo": "Dragon Ball Z: Shin Budokai - Another Road", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1SquR3MJrgxrgRYXCWEfD-fkeuGRgi9Ed" },
+        { "titulo": "Dragon Ball: Advanced Adventure", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1Tsj4ICOMHfisXKItRYObeu608txA71Vz" },
+        { "titulo": "Dragon Ball Z: Budokai 3", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1UcPPHRupw_7Cg0bcceCMZux00fbWcLyA" },
+        { "titulo": "Dragon Ball Z: Budokai 2", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1VpnGeNTwnoCeF1OIgONFwFXrSiQBCZtY" },
+        { "titulo": "Dragon Ball Z: Budokai Tenkaichi 2", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1aBMBzvH8LUqDZoxDfdTzednCwXTiahY1" },
+        { "titulo": "Dragon Ball Z: The Legacy of Goku II", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1aCDo3I04ud5PcA1l2Z7JGvowVUYCsa3K" },
+        { "titulo": "Dragon Ball FighterZ", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1emM49Xbed6wuzu6W5FP7DXiC2uGydUwM" },
+        { "titulo": "Dragon Ball Z: Dokkan Battle", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1nM6Wc-shh6lH8TRVS0NRhhA23Mc638qW" },
+        { "titulo": "Dragon Ball Xenoverse 2", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1opHnByooG3XhwoOGb129gvTHK2zemLQz" },
+        { "titulo": "Super Dragon Ball Heroes: World Mission", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1qY1OnwfhIGcE2fNxGPPytaxjn5HpSo8r" },
+        { "titulo": "Dragon Ball Fusions", "descripcion": "Información no disponible.", "imagen": "https://lh3.googleusercontent.com/d/1x6y8WCWJA-7eH_aRckj_Bp0YKRv92lmk" }
     ]
 };
 
 var WORLD_DATA = {
     "sagas": [
-        { "era": "Dragon Ball Clásico", "lista": ["Saga de Pilaf", "Saga de la Red Ribbon", "Saga de Piccolo Daimaku", "Saga de Piccolo Jr."] },
-        { "era": "Dragon Ball Z", "lista": ["Saga Saiyan", "Saga de Freezer", "Saga de Cell", "Saga de Majin Buu"] },
-        { "era": "Dragon Ball Super", "lista": ["Saga de Black Goku", "Torneo de la Fuerza", "Saga de Moro", "Saga de Granolah"] }
+        { 
+            "era": "Dragon Ball Clásico", 
+            "lista": [
+                "Saga de Pilaf", 
+                "Saga del 21.º Torneo de Artes Marciales", 
+                "Saga del Ejército Red Ribbon", 
+                "Saga del General Blue", 
+                "Saga de la Torre Karin", 
+                "Saga del 22.º Torneo de Artes Marciales", 
+                "Saga de Piccolo Daimaō", 
+                "Saga del 23.º Torneo de Artes Marciales"
+            ] 
+        },
+        { 
+            "era": "Dragon Ball Z", 
+            "lista": [
+                "Saga Saiyan", 
+                "Saga de Freezer", 
+                "Saga de Garlic Jr.", 
+                "Saga de los Androides", 
+                "Saga de Cell", 
+                "Saga del Otro Mundo", 
+                "Saga de Majin Buu"
+            ] 
+        },
+        { 
+            "era": "Dragon Ball GT", 
+            "lista": [
+                "Saga de las Bolas de Dragón Definitivas", 
+                "Saga de Baby", 
+                "Saga de Super 17", 
+                "Saga de los Dragones Oscuros"
+            ] 
+        },
+        { 
+            "era": "Dragon Ball Super", 
+            "lista": [
+                "Saga de Beerus", 
+                "Saga de Golden Freezer", 
+                "Saga del Torneo del Universo 6", 
+                "Saga de Goku Black", 
+                "Saga del Torneo del Poder", 
+                "Saga de Broly", 
+                "Saga de Super Hero"
+            ] 
+        },
+        { 
+            "era": "Dragon Ball DAIMA", 
+            "lista": [
+                "Saga del Reino Demoníaco", 
+                "Saga de Gomah", 
+                "Saga de los Tamagami"
+            ] 
+        }
     ],
     "esferas": [
         { "nombre": "Esferas de la Tierra", "dragon": "Shenlong", "color": "warning", "descripcion": "Creadas por Kamisama. Conceden deseos tras reunirlas todas." },

@@ -77,7 +77,7 @@ function renderCharacters(characters) {
                 <div class="card-image-box">
                     <img src="${char.imagenes[0]}" alt="${char.Personaje}">
                     <div class="position-absolute top-0 start-0 m-3">
-                        <span class="badge bg-primary rounded-pill shadow-sm">U${char.Universo}</span>
+                        <span class="category-badge">U${char.Universo}</span>
                     </div>
                 </div>
                 <div class="card-content">
@@ -117,10 +117,10 @@ function renderMedia(media) {
                 <div class="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="zoom-in">
                     <div class="premium-card">
                         <div class="card-image-box" style="aspect-ratio: 2/3;">
-                            <img src="${item.imagen}" alt="${item.titulo}">
+                            <img src="${item.imagen}" alt="${item.titulo}" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x450/111/ff5e00?text=SIN+IMAGEN';">
                             <div class="position-absolute bottom-0 start-0 w-100 p-3" style="background: linear-gradient(transparent, rgba(0,0,0,0.8));">
-                                <span class="text-primary fw-bold extra-small">${label}</span>
-                                <h6 class="text-white small mb-0 text-truncate">${item.titulo}</h6>
+                                <span class="category-badge">${label}</span>
+                                <h6 class="text-white small mb-0 text-truncate" title="${item.titulo}">${item.titulo}</h6>
                             </div>
                         </div>
                     </div>
@@ -203,13 +203,14 @@ function renderWorld(world) {
         biomasContainer.innerHTML = world.biomas.map(bioma => `
             <div class="col-md-4" data-aos="fade-up">
                 <div class="premium-card p-4">
+                    <div class="mb-2">
+                        <span class="category-badge">${bioma.clima}</span>
+                    </div>
                     <div class="d-flex align-items-center justify-content-between mb-3">
                         <h5 class="text-white mb-0">${bioma.nombre}</h5>
                         <i class="bi bi-geo-alt text-primary"></i>
                     </div>
                     <p class="text-muted small mb-0">${bioma.descripcion}</p>
-                    <hr class="border-secondary opacity-10">
-                    <span class="text-primary extra-small fw-bold">CLIMA: ${bioma.clima.toUpperCase()}</span>
                 </div>
             </div>
         `).join('');
